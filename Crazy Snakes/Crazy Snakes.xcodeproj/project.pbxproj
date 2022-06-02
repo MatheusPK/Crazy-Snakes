@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0923A5EB2847CAC4005F0A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0923A5EA2847CAC4005F0A7C /* AppDelegate.swift */; };
+		0923A5ED2847CAC4005F0A7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0923A5EC2847CAC4005F0A7C /* SceneDelegate.swift */; };
+		0923A5EF2847CAC4005F0A7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0923A5EE2847CAC4005F0A7C /* ViewController.swift */; };
+		0923A5F42847CAC5005F0A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0923A5F32847CAC5005F0A7C /* Assets.xcassets */; };
+		0923A5F72847CAC5005F0A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0923A5F52847CAC5005F0A7C /* LaunchScreen.storyboard */; };
+		0923A6022847CAC6005F0A7C /* Crazy_SnakesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0923A6012847CAC6005F0A7C /* Crazy_SnakesTests.swift */; };
+		0923A60C2847CAC6005F0A7C /* Crazy_SnakesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0923A60B2847CAC6005F0A7C /* Crazy_SnakesUITests.swift */; };
+		0923A60E2847CAC6005F0A7C /* Crazy_SnakesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0923A60D2847CAC6005F0A7C /* Crazy_SnakesUITestsLaunchTests.swift */; };
+		0923A61F2847CDC8005F0A7C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0923A61E2847CDC8005F0A7C /* BaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0923A5FE2847CAC6005F0A7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0923A5DF2847CAC4005F0A7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0923A5E62847CAC4005F0A7C;
+			remoteInfo = "Crazy Snakes";
+		};
+		0923A6082847CAC6005F0A7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0923A5DF2847CAC4005F0A7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0923A5E62847CAC4005F0A7C;
+			remoteInfo = "Crazy Snakes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0923A5E72847CAC4005F0A7C /* Crazy Snakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crazy Snakes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0923A5EA2847CAC4005F0A7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0923A5EC2847CAC4005F0A7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0923A5EE2847CAC4005F0A7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0923A5F32847CAC5005F0A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0923A5F62847CAC5005F0A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0923A5F82847CAC5005F0A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0923A5FD2847CAC6005F0A7C /* Crazy SnakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crazy SnakesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0923A6012847CAC6005F0A7C /* Crazy_SnakesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crazy_SnakesTests.swift; sourceTree = "<group>"; };
+		0923A6072847CAC6005F0A7C /* Crazy SnakesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crazy SnakesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0923A60B2847CAC6005F0A7C /* Crazy_SnakesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crazy_SnakesUITests.swift; sourceTree = "<group>"; };
+		0923A60D2847CAC6005F0A7C /* Crazy_SnakesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crazy_SnakesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0923A61E2847CDC8005F0A7C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0923A5E42847CAC4005F0A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0923A5FA2847CAC6005F0A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0923A6042847CAC6005F0A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0923A5DE2847CAC4005F0A7C = {
+			isa = PBXGroup;
+			children = (
+				0923A5E92847CAC4005F0A7C /* Crazy Snakes */,
+				0923A6002847CAC6005F0A7C /* Crazy SnakesTests */,
+				0923A60A2847CAC6005F0A7C /* Crazy SnakesUITests */,
+				0923A5E82847CAC4005F0A7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0923A5E82847CAC4005F0A7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0923A5E72847CAC4005F0A7C /* Crazy Snakes.app */,
+				0923A5FD2847CAC6005F0A7C /* Crazy SnakesTests.xctest */,
+				0923A6072847CAC6005F0A7C /* Crazy SnakesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0923A5E92847CAC4005F0A7C /* Crazy Snakes */ = {
+			isa = PBXGroup;
+			children = (
+				0923A61A2847CD37005F0A7C /* App */,
+				0923A61C2847CD62005F0A7C /* Shared */,
+				0923A61B2847CD56005F0A7C /* Scenes */,
+				0923A5EE2847CAC4005F0A7C /* ViewController.swift */,
+				0923A5F32847CAC5005F0A7C /* Assets.xcassets */,
+				0923A5F52847CAC5005F0A7C /* LaunchScreen.storyboard */,
+			);
+			path = "Crazy Snakes";
+			sourceTree = "<group>";
+		};
+		0923A6002847CAC6005F0A7C /* Crazy SnakesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0923A6012847CAC6005F0A7C /* Crazy_SnakesTests.swift */,
+			);
+			path = "Crazy SnakesTests";
+			sourceTree = "<group>";
+		};
+		0923A60A2847CAC6005F0A7C /* Crazy SnakesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0923A60B2847CAC6005F0A7C /* Crazy_SnakesUITests.swift */,
+				0923A60D2847CAC6005F0A7C /* Crazy_SnakesUITestsLaunchTests.swift */,
+			);
+			path = "Crazy SnakesUITests";
+			sourceTree = "<group>";
+		};
+		0923A61A2847CD37005F0A7C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0923A5EA2847CAC4005F0A7C /* AppDelegate.swift */,
+				0923A5EC2847CAC4005F0A7C /* SceneDelegate.swift */,
+				0923A5F82847CAC5005F0A7C /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0923A61B2847CD56005F0A7C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0923A61C2847CD62005F0A7C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0923A61D2847CDB3005F0A7C /* Game */,
+				0923A61E2847CDC8005F0A7C /* BaseViewController.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0923A61D2847CDB3005F0A7C /* Game */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0923A5E62847CAC4005F0A7C /* Crazy Snakes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0923A6112847CAC6005F0A7C /* Build configuration list for PBXNativeTarget "Crazy Snakes" */;
+			buildPhases = (
+				0923A5E32847CAC4005F0A7C /* Sources */,
+				0923A5E42847CAC4005F0A7C /* Frameworks */,
+				0923A5E52847CAC4005F0A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crazy Snakes";
+			productName = "Crazy Snakes";
+			productReference = 0923A5E72847CAC4005F0A7C /* Crazy Snakes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0923A5FC2847CAC6005F0A7C /* Crazy SnakesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0923A6142847CAC6005F0A7C /* Build configuration list for PBXNativeTarget "Crazy SnakesTests" */;
+			buildPhases = (
+				0923A5F92847CAC6005F0A7C /* Sources */,
+				0923A5FA2847CAC6005F0A7C /* Frameworks */,
+				0923A5FB2847CAC6005F0A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0923A5FF2847CAC6005F0A7C /* PBXTargetDependency */,
+			);
+			name = "Crazy SnakesTests";
+			productName = "Crazy SnakesTests";
+			productReference = 0923A5FD2847CAC6005F0A7C /* Crazy SnakesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0923A6062847CAC6005F0A7C /* Crazy SnakesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0923A6172847CAC6005F0A7C /* Build configuration list for PBXNativeTarget "Crazy SnakesUITests" */;
+			buildPhases = (
+				0923A6032847CAC6005F0A7C /* Sources */,
+				0923A6042847CAC6005F0A7C /* Frameworks */,
+				0923A6052847CAC6005F0A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0923A6092847CAC6005F0A7C /* PBXTargetDependency */,
+			);
+			name = "Crazy SnakesUITests";
+			productName = "Crazy SnakesUITests";
+			productReference = 0923A6072847CAC6005F0A7C /* Crazy SnakesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0923A5DF2847CAC4005F0A7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0923A5E62847CAC4005F0A7C = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					0923A5FC2847CAC6005F0A7C = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 0923A5E62847CAC4005F0A7C;
+					};
+					0923A6062847CAC6005F0A7C = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 0923A5E62847CAC4005F0A7C;
+					};
+				};
+			};
+			buildConfigurationList = 0923A5E22847CAC4005F0A7C /* Build configuration list for PBXProject "Crazy Snakes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0923A5DE2847CAC4005F0A7C;
+			productRefGroup = 0923A5E82847CAC4005F0A7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0923A5E62847CAC4005F0A7C /* Crazy Snakes */,
+				0923A5FC2847CAC6005F0A7C /* Crazy SnakesTests */,
+				0923A6062847CAC6005F0A7C /* Crazy SnakesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0923A5E52847CAC4005F0A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0923A5F72847CAC5005F0A7C /* LaunchScreen.storyboard in Resources */,
+				0923A5F42847CAC5005F0A7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0923A5FB2847CAC6005F0A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0923A6052847CAC6005F0A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0923A5E32847CAC4005F0A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0923A5EF2847CAC4005F0A7C /* ViewController.swift in Sources */,
+				0923A61F2847CDC8005F0A7C /* BaseViewController.swift in Sources */,
+				0923A5EB2847CAC4005F0A7C /* AppDelegate.swift in Sources */,
+				0923A5ED2847CAC4005F0A7C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0923A5F92847CAC6005F0A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0923A6022847CAC6005F0A7C /* Crazy_SnakesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0923A6032847CAC6005F0A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0923A60C2847CAC6005F0A7C /* Crazy_SnakesUITests.swift in Sources */,
+				0923A60E2847CAC6005F0A7C /* Crazy_SnakesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0923A5FF2847CAC6005F0A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0923A5E62847CAC4005F0A7C /* Crazy Snakes */;
+			targetProxy = 0923A5FE2847CAC6005F0A7C /* PBXContainerItemProxy */;
+		};
+		0923A6092847CAC6005F0A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0923A5E62847CAC4005F0A7C /* Crazy Snakes */;
+			targetProxy = 0923A6082847CAC6005F0A7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0923A5F52847CAC5005F0A7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0923A5F62847CAC5005F0A7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0923A60F2847CAC6005F0A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0923A6102847CAC6005F0A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0923A6122847CAC6005F0A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MWCW3Z467;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Crazy Snakes/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KrekBot.Crazy-Snakes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0923A6132847CAC6005F0A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MWCW3Z467;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Crazy Snakes/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KrekBot.Crazy-Snakes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0923A6152847CAC6005F0A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MWCW3Z467;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KrekBot.Crazy-SnakesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crazy Snakes.app/Crazy Snakes";
+			};
+			name = Debug;
+		};
+		0923A6162847CAC6005F0A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MWCW3Z467;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KrekBot.Crazy-SnakesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crazy Snakes.app/Crazy Snakes";
+			};
+			name = Release;
+		};
+		0923A6182847CAC6005F0A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MWCW3Z467;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KrekBot.Crazy-SnakesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Crazy Snakes";
+			};
+			name = Debug;
+		};
+		0923A6192847CAC6005F0A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MWCW3Z467;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KrekBot.Crazy-SnakesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Crazy Snakes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0923A5E22847CAC4005F0A7C /* Build configuration list for PBXProject "Crazy Snakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0923A60F2847CAC6005F0A7C /* Debug */,
+				0923A6102847CAC6005F0A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0923A6112847CAC6005F0A7C /* Build configuration list for PBXNativeTarget "Crazy Snakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0923A6122847CAC6005F0A7C /* Debug */,
+				0923A6132847CAC6005F0A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0923A6142847CAC6005F0A7C /* Build configuration list for PBXNativeTarget "Crazy SnakesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0923A6152847CAC6005F0A7C /* Debug */,
+				0923A6162847CAC6005F0A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0923A6172847CAC6005F0A7C /* Build configuration list for PBXNativeTarget "Crazy SnakesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0923A6182847CAC6005F0A7C /* Debug */,
+				0923A6192847CAC6005F0A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0923A5DF2847CAC4005F0A7C /* Project object */;
+}
